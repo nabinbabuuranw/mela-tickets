@@ -1,0 +1,15 @@
+{
+  "name": "mela-tickets",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Mela Tickets: demo event ticketing (no payments)",
+  "license": "MIT",
+  "scripts": {
+    "test": "node --test test/*.test.js",
+    "qa:browser": "python3 qa/browser_qa.py qa-out 375"
+  },
+  "engines": {
+    "node": ">=22.5"
+  },
+  "repository": "https://github.com/nabinbabuuranw/mela-tickets"
+}
